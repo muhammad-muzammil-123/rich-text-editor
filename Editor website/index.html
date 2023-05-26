@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- <h1 class="top-head">RICH TEXT EDITOR</h1> -->
+<div class="nav">
+    <h1 onmouseover="this.style.color = 'green'; " onmouseout="this.style.color='rgba(165, 42, 42, 0.589)';" class=  "top-head">RICH TEXT EDITOR</h1>
+    <div class="list">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Demos</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Document</a></li>
+    </ul>
+</div>
+</div>
+<div class="richText">
+    <input type="number" onchange="f1(this)" name="" id="font-size" min="1" max="100" value="16">
+    <button onclick="f2()" id="bold" type="button">
+    <i class="fa-solid fa-bold"></i>
+</button>
+<button onclick="f3()" id="italic" type="button"><i class="fa-solid fa-italic"></i>
+</button>
+<button onclick="f4()" id="underline" type="button"><i class="fa-solid fa-underline"></i>
+</button>
+<button onclick="f5()" id="left" type="button"><i class="fa-solid fa-align-left"></i>
+</button>
+<button onclick="f6()" id="center" type="button"><i class="fa-solid fa-align-center"></i>
+</button>
+<button onclick="f7()" id="right" type="button"><i class="fa-solid fa-align-right"></i>
+</button>
+<button onclick="f8()" id="overline" type="button"><i class="fa-solid fa-text-slash"></i>
+</button>
+<button onclick="f9()" id="upppercase" type="button">aA
+</button>
+<input onclick="f10()" type="color" id="color "><i class="fa-solid fa-background-color"></i>
+
+</div>
+
+<div class="area" >
+
+
+<textarea name="muzammil" class="typing" id="textareaText" placeholder="Type Text In Textarea" ></textarea>
+
+
+
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
